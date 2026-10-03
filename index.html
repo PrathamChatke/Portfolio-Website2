@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="dark" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratham Chatke | DevOps Engineer</title>
+    <meta name="description" content="Pratham Chatke is a DevOps engineer building reliable AWS infrastructure, Kubernetes platforms, CI/CD pipelines, and Infrastructure as Code." />
+    <link rel="canonical" href="https://prathamchatke.dev/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#080d19" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pratham Chatke" />
+    <meta property="og:title" content="Pratham Chatke | DevOps Engineer" />
+    <meta property="og:description" content="DevOps engineer: AWS, Kubernetes, Terraform, CI/CD and observability. 99.99% uptime, 70% faster releases, 40% cloud cost reduction." />
+    <meta property="og:url" content="https://prathamchatke.dev/" />
+    <meta property="og:image" content="https://prathamchatke.dev/og-image.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pratham Chatke | DevOps Engineer" />
+    <meta name="twitter:description" content="DevOps engineer: AWS, Kubernetes, Terraform, CI/CD and observability." />
+    <meta name="twitter:image" content="https://prathamchatke.dev/og-image.png" />
+
+    <script>
+      // Apply the saved theme before first paint to avoid a flash. Default: dark.
+      (function () {
+        try {
+          var dark = localStorage.getItem("theme") !== "light";
+          var root = document.documentElement;
+          root.classList.toggle("dark", dark);
+          root.setAttribute("data-theme", dark ? "dark" : "light");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>This site needs JavaScript enabled.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
